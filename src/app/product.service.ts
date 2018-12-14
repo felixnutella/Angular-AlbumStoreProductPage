@@ -1,7 +1,6 @@
 import {Injectable} from '@angular/core';
-import {Http} from '@angular/http';
+import {Http, Response} from '@angular/http';
 import 'rxjs/add/operator/map';
-import {getResponseURL} from '@angular/http/src/http_utils';
 
 @Injectable()
 export class ProductService {
